@@ -15,6 +15,13 @@ a {
   clear: left;
 }
 
+.container {
+  /* Ubah width ke 100% */
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 /* css untuk bagian header, logo, menu */
 header {
   height: 65px;
