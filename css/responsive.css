@@ -12,7 +12,8 @@
   .heading h2 {
     font-size: 20px;
   }
-  
+
+
 form input, form textarea {
     width: 75%;
   }
@@ -56,7 +57,7 @@ form input, form textarea {
   }
   
   .top-wrapper {
-    text-align: left;
+    text-align: center;
   }
   
   /* Tambahkan CSS untuk header-right */
@@ -78,8 +79,21 @@ form input, form textarea {
     font-size: 14px;
     line-height: 20px;
   }
-  
-   form input,
+
+  .contact-form {
+    width: left;
+  }
+
+  .contact-form h3 {
+    width: 18px;
+    line-height: 30px;
+  }
+
+  .contact-form p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+ form input,
   form textarea {
     width: 100%;
     padding: 10px;
