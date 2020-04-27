@@ -21,9 +21,11 @@ form input, form textarea {
   .form-heading h2 {
     font-size: 22px;
   }
+
   .form-heading p {
     font-size: 16px;
   }
+
   .row-15 {
     width: 25%;
   }
@@ -131,42 +133,5 @@ form input, form textarea {
 
   .btn-send {
     padding: 15px 45px;
-  }
-
-  .nav-left a {
-    /* display: none; */
-    text-align: center;
-  }
-
-  .logo {
-    width: 140px;
-  }
-  .topnav .nav-right a {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .topnav .nav-left,
-  .topnav .nav-right {
-    float: none;
-  }
-
-  .topnav.responsive {
-    position: relative;
-  }
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: center;
-  }
-  .topnav.responsive .nav-left a {
-    display: inline-block;
   }
 }
