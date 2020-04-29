@@ -106,30 +106,6 @@ header {
   box-shadow: none;
 }
 /*Akhir css untuk bagian Animasi Tombol */
-
-
-/* Awal css untuk bagian Animasi sliding */
-.slide {
-  width: 100px;
-  height: 30px;
-  margin-top: 20px;
-  font-size: 20px;
-  font-family: Arial;
-  font-weight: bold;
-  position: relative;
-  background-color:skyblue;
-  box-shadow: 0 7px lightseagreen;
-  animation-name: example;
-  animation-duration: 2s;
-}
-  
- @keyframes example {
-  0%   {background-color: skyblue; left:0px;}
-  50%  {background-color: greenyellow; left:500px;}
-  100% {background-color: skyblue; left:0px;} 
-}
-/* Akhir css untuk bagian Animasi sliding */
-
   
 /* Awal css untuk bagian Utama */  
 .top-wrapper {
