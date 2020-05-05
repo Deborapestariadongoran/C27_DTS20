@@ -1,54 +1,66 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio Dedy</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
-  <link rel="stylesheet" type="text/css" href="../css/responsive.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="shortcut icon" href="favicon.ico" >
-
+	<title>Portofolio Dedy</title>
+  	<meta charset="utf-8">
+  	<meta 
+    	name="viewport" 
+    	content="width=device-width, initial-scale=1.0">
+  	<!-- Bagian untuk memanggil file CSS dari link (harus online internet) -->
+  	<link 
+    	rel="stylesheet" 
+    	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<!-- Bagian untuk memanggil file CSS stylesheet -->
+  	<link 
+    	rel="stylesheet" 
+    	type="text/css" 
+    	href="../css/stylesheet.css">
+	<!-- Bagian untuk memanggil file CSS responsive -->
+  	<link 
+    	rel="stylesheet" 
+    	type="text/css" 
+    	href="../css/responsive.css">
 </head>
+
+<!-- Bagian untuk Body -->
 <body>
-  <div style="height: 65px;width: 100%"></div>
-  
-  <!-- Awal bagian untuk Bagian Header -->
+  <!-- Bagian untuk header -->
   <header>
     <div class="container">
-      <div class="header-left">
-        <img class="logo" src="../images/logoc27.png"> 
-        <!--<h1 class="logo-text">C27 DTS20</h1>.-->
+      <!-- Bagian untuk Logo pada Header -->
+      <div class="header-logo">
+        <img class="logo" src="../images/logoc27.png">
       </div>
-      <span class="fa fa-bars menu-icon"></span>           
-      <div class="header-right">
-        <a href="../index.html">Home</a>
-        <a href="../index.html">Schedule</a>
+      <!-- Bagian untuk menampilkan menu -->  
+      <div class="header-menu" id="myMenu">
+        <a href="../index.html#home">Home</a>
         <a href="../index.html#team">Team</a>
+        <a href="../index.html#learn">Learn</a>
         <a href="../index.html#contact">Contact Us</a>
+        <!-- Bagian untuk memanggil JavaScript agar menu menjadi menu bars saat tampilan di Hp -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
     </div>
+    <marquee direction="left" scrollamount="4" align="center" style="color:black;">Selamat datang di Website C27-DTS20!</marquee>
   </header>
-  <!-- Akhir bagian untuk Bagian Header -->
 
-
-  <!-- Awal bagian untuk Bagian utama -->
-  <div class="row">
-
-    <!-- Awal bagian untuk Bagian utama kolom kiri -->
-    <div class="side">
+  <!-- Bagian untuk Row Porto -->
+  <div class="row-porto">
+    
+    <!-- Bagian untuk Row Left -->
+    <div class="row-pleft">
       <img src="../images/dedy.jpg" style="width:100%" alt="Foto">
       <h3>Dedy Hendarko</h3>
       <p><span class="fa fa-user-circle"></span>&nbsp;&nbsp;&nbsp; Data Analyst</p>
       <p><span class="fa fa-envelope"></span>&nbsp;&nbsp;&nbsp; dedyh861@gmail.com</p>
-      <p>&nbsp;<span class="fa fa-map-marker"></span>&nbsp;&nbsp;&nbsp;&nbsp; Sepinggan Baru, Balikpapan Selatan</p>   
+      <p>&nbsp;<span class="fa fa-map-marker"></span>&nbsp;&nbsp;&nbsp;&nbsp; Sepinggan Baru, Balikpapan Selatan</p> 
     </div>
-    <!-- Akhir bagian untuk Bagian utama kolom kiri -->
-
-
-    <!-- Awal bagian untuk Bagian utama kolom kanan -->
-    <div class="main">
+  
+    <!-- Bagian untuk Row Right -->
+    <div class="row-pright">
       <div class="container">
         <h2><span class="fa fa-briefcase"></span>&nbsp;&nbsp;Pengalaman Kerja</h2>
         <p style="line-height: 1.7em"><b style="font-size:18px">Aplikanusa Lintasarta</b><br>
@@ -88,34 +100,41 @@
         </p>
       </div>
     </div>
-    <!-- Akhir bagian untuk Bagian utama kolom kanan -->
 
   </div>
-  <!-- Akhir bagian untuk Bagian utama -->
 
-
-  <!-- Awal bagian untuk Footer -->
+  <!-- Bagian untuk Footer -->
   <footer>
     <div class="container">
       <img class="logo" src="../images/logoc27.png">
-      <!--<h1>C27 DTS20</h1>-->
       <p>Jl. Jkt Garden City Boulevard, RT.10/RW.9, </p>
       <p>Tim., Kec. Cakung, Kota Jakarta Timur,</p>
       <p>Daerah Khusus Ibukota Jakarta 13910</p>
-        <div>
-          <i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(021) 78326271
-        </div>
-        <div>
-          <a href="https://api.whatsapp.com/send?phone=628562846398" >
-            <i class="fa fa-mobile" style="font-size: 18px;vertical-align: -1px;"></i>
-            <i class="fa fa-whatsapp"></i>&nbsp;&nbsp;&nbsp;<span>0856-2846-398</span></a>
-        </div>
-        <br>
-        <br>
-        <div class="copyright">&copy; 2020 C27 DTS20.  All Rights Reserved.</div>
+      <div>
+        <i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(021) 78326271
+      </div>
+      <div>
+        <a href="https://api.whatsapp.com/send?phone=628562846398" >
+          <i class="fa fa-mobile" style="font-size: 18px;vertical-align: -1px;"></i>
+          <i class="fa fa-whatsapp"></i>&nbsp;&nbsp;&nbsp;<span>0856-2846-398</span></a>
+      </div>
+      <br>
+      <br>
+      <div class="copyright">&copy; 2020 C27 DTS20.  All Rights Reserved.</div>
     </div>
   </footer>
-  <!-- Akhir bagian untuk Footer -->
+
+<!-- Bagian untuk menu pada tampilan HP -->
+<script type="text/javascript">
+  function myFunction() {
+  var x = document.getElementById("myMenu");
+  if (x.className === "header-menu") {
+    x.className += " responsive";
+  } else {
+    x.className = "header-menu";
+  }
+}
+</script>
 
 </body>
 </html>
