@@ -56,9 +56,7 @@
         <a href="#learn">Learn</a>
         <a href="#contact">Contact Us</a>
         <!-- Bagian untuk memanggil JavaScript agar menu menjadi menu bars saat tampilan di Hp -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+        <a href="javascript:void(0);" class="icon fa fa-bars" onclick="myFunction()"></a>
       </div>
     </div>
     <marquee direction="left" scrollamount="4" align="center" style="color:black;">Selamat datang di Website C27-DTS20!</marquee>
@@ -196,16 +194,7 @@
   </footer>
 
 <!-- Bagian untuk menu pada tampilan HP -->
-<script type="text/javascript">
-  function myFunction() {
-  var x = document.getElementById("myMenu");
-  if (x.className === "header-menu") {
-    x.className += " responsive";
-  } else {
-    x.className = "header-menu";
-  }
-}
-</script>
+<script src=".js/menu.js"></script>
 
 </body>
 </html>
